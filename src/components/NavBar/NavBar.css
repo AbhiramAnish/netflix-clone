@@ -1,0 +1,47 @@
+
+.navbar{
+    position: fixed;
+    z-index:99;
+    background: linear-gradient(0deg, rgba(240, 242, 245, 0) -60%, rgba(0,0,0,1) 100%);
+    top:0;
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+}
+
+.right-content{
+    display: flex;
+    width: fit-content;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-left: 879px;
+    gap: 8px;
+    justify-content: flex-end;
+}
+
+ p{
+    line-height: 1.2;
+    color: white;
+ 
+    opacity: 50%;
+    font-weight: 600;
+    font-size: 18px;
+} 
+
+.logo{
+position: fixed;
+left: 20px;
+width: 80px;
+}
+
+.avatar {
+    border-radius: 50px;
+    position: fixed;
+    right: 55px;
+    width: 35px;
+}

@@ -1,0 +1,22 @@
+.footerr{
+    height: 30px;
+    padding: 10px;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+span{
+    font-size: 1rem;
+}
+
+h6{
+    padding: 2vmin;
+}
+
+.logos{
+    left: 20px;
+    width: 80px;
+    z-index: 99;
+    }
+
